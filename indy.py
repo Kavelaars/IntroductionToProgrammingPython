@@ -1,0 +1,17 @@
+print 'Samenvatting - Hoofdstuk 1, 2 en 4.12'
+print 'Basic instructions programming languages'
+print '- Input, get data example; keyboard'
+print '- Output, display data example; to screen'
+print '- Math, basic mathematical operations'
+print '- Conditional excution, check conditions and excute appropriately'
+print '- Repetition, Perform action reapetdly with some variation'
+print 'Two kinds of programs processes high-level into low level languages'
+print '1. Interpreters, sourcecode -> output. processes al little at a time'
+print '2. Compilers, translates sourcecode completely before running to objectcode/executable. Once compiled it can run without translation'
+print 'Different Errors'
+print '1. Semantic errors, program will run but does not do what you want it to do'
+print '2. Runtime errors, program will not run, are also called exceptions, rare in simple programs'
+print '3. Syntax errors, code is not correctly formatted'
+print 'Programming languages are formal languages that have been designed to express computations'
+print 'Exercise 1.4: 1. l
+
