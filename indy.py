@@ -46,3 +46,4 @@ name = raw_input ("What ... is your name? ")
 print name
 prompt = "How fast is a cheata? km/h \n" # \n means newLine, input needs to be int
 speed = input(prompt)
+print "Sections 4.1, 4.2, 4.4-4.7, and 6.1-6.2"
