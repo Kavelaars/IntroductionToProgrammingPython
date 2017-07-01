@@ -27,6 +27,7 @@ print type(0)
 print type(3.2)
 print 1,000,000
 who = "The cool kid"
+message = "Well hello!"
 print message
 print type (message)
 print "Keywords: and def exec if not return assert del finally import or try break elif for in pass while class else from is print yield continue except global lambda raise"
@@ -42,8 +43,28 @@ what = " doing some Python"
 print who + what + " concatination and having, " + "Fun! "*3
 # This is a comment and is not visible when the program is executed
 print "Chapter 4.12 keyboard input"
-name = raw_input ("What ... is your name? ")
-print name
-prompt = "How fast is a cheata? km/h \n" # \n means newLine, input needs to be int
-speed = input(prompt)
+#name = raw_input ("What ... is your name? ")
+#print name
+#prompt = "How fast is a cheata? km/h \n" # \n means newLine, input needs to be int
+#speed = input(prompt)
 print "Sections 4.1, 4.2, 4.4-4.7, and 6.1-6.2"
+quotient = 7/3 
+print quotient #Anwser = 2
+remainder = 7/3
+print remainder #Anwser = 1 left over
+print "Exellent for checking if a number is divisible if x % y is zero, this is true"
+x = 2288
+test = x % 100
+print test
+print "Returns True / False"
+print "x == y" # is equel, 
+print "x != y" # x is not equal to y
+print "x > y" # x is greater than y
+print "x < y" # x is less than y
+print "x >= y" # x is greater than or equal to y
+print "x <= y" # x is less than or equal to y
+if x > 0:
+    print "x is positive"
+print "'pass' statement as a place keeper, for unwritten code"
+print "Next:4.5"
+
