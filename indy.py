@@ -29,7 +29,6 @@ print 1,000,000
 who = "The cool kid"
 message = "Well hello!"
 print message
-print type (message)
 print "Keywords: and def exec if not return assert del finally import or try break elif for in pass while class else from is print yield continue except global lambda raise"
 print "sol 2.5 - put the keyword print before the values"
 print "Operators special symbols, operands are the values"
@@ -50,11 +49,11 @@ print "Chapter 4.12 keyboard input"
 print "Sections 4.1, 4.2, 4.4-4.7, and 6.1-6.2"
 quotient = 7/3 
 print quotient #Anwser = 2
-remainder = 7/3
+remainder = 7%3
 print remainder #Anwser = 1 left over
 print "Exellent for checking if a number is divisible if x % y is zero, this is true"
-x = 2288
-test = x % 100
+x = 8
+test = x % 2
 print test
 print "Returns True / False"
 print "x == y" # is equel, 
@@ -66,5 +65,46 @@ print "x <= y" # x is less than or equal to y
 if x > 0:
     print "x is positive"
 print "'pass' statement as a place keeper, for unwritten code"
-print "Next:4.5"
-
+print "Next:4.5 Alternative execution"
+def printParity(x):
+    if x%2 == 0:
+        print x, "is even"
+    else:
+        print x, "is odd"
+printParity(17)
+printParity(quotient)
+def makeChoice(choice):
+    if choice == 'A':
+        functionA()
+    elif choice == 'B':
+        functionB()
+    elif choice == 'C':
+        functionC()
+    else:
+        print "Invalid choice."
+choice = 'D'
+makeChoice(choice)
+print x
+if 0 < x:
+    if x < 10:
+        print "x is a single positive digit AND same as following"
+if 0 < x and x < 10:
+    print "x is a single positive digit AND same as following"
+if 0 < x < 10:
+    print "x is is a single positive digit AND semanticly the same as above"
+print "multiple assignment, first a = 1 now a = 2, this is not a sign of equality"
+print "While statement, count down"
+def countdown(n):
+    while n > 0:
+        print n
+        n = n-1
+    print "Done!"
+countdown(3)
+def sequence(m):
+    while m != 1:
+        print m,
+        if m%2 == 0:    #n is even
+            m = m/2
+        else:
+            m = m*3+1
+sequence(3)
